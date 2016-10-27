@@ -1,0 +1,186 @@
+{
+  "version": "1.0.5",
+  "projections": [
+    {
+      "code": "EPSG:3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.31
+      ],
+      "units": "m"
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.31
+      ],
+      "units": "m"
+    },
+    {
+      "code": "urn:ogc:def:crs:EPSG::3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.31
+      ],
+      "units": "m"
+    },
+    {
+      "code": "EPSG:3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": "m"
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": "m"
+    }
+  ],
+  "tools": [
+    {
+      "type": "layerswitcher",
+      "options": {
+        "baselayers": [
+          "77676120-1157-b861-706a-908ecd18c258"
+        ],
+        "groups": [
+          {
+            "id": "afe0c79e-f807-0c17-8bcd-4974bf4e9ee6",
+            "parent": "-1",
+            "name": "Data",
+            "toggled": true,
+            "layers": [
+              {
+                "id": "84a8aa5c-a062-fc32-24fb-30df211427b4",
+                "drawOrder": 0
+              },
+              {
+                "id": "d8eff0fd-fe48-c06a-8ad8-3ff3814a744a",
+                "drawOrder": 0
+              }
+            ],
+            "groups": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "infoclick",
+      "options": {}
+    },
+    {
+      "type": "search",
+      "options": {
+        "settings": {
+          "Alla lager": "*",
+          "Hållplatser": "9"
+        }
+      }
+    },
+    {
+      "type": "coordinates",
+      "options": {
+        "transformations": [
+          {
+            "code": "EPSG:3006",
+            "default": true,
+            "hint": "(Standard)",
+            "title": "Sweref 99 TM"
+          },
+          {
+            "code": "EPSG:3007",
+            "title": "Sweref 99 12 00"
+          },
+          {
+            "code": "EPSG:4326",
+            "title": "WGS 84"
+          },
+          {
+            "code": "EPSG:3021",
+            "title": "RT 90 2.5 gon V"
+          }
+        ]
+      }
+    },
+    {
+      "type": "export",
+      "options": {
+        "url": "http://localhost/mapservice/export/"
+      }
+    },
+    {
+      "type": "draw",
+      "options": {
+        "exportUrl": "/mapservice/export/kml",
+        "importUrl": "/mapservice/export/importkml"
+      }
+    },
+    {
+      "type": "edit",
+      "options": {}
+    },
+    {
+      "type": "anchor",
+      "options": {}
+    }
+  ],
+  "map": {
+    "target": "map",
+    "center": [
+      415024,
+      6583518
+    ],
+    "projection": "EPSG:3006",
+    "zoom": 9,
+    "maxZoom": 9,
+    "minZoom": 3,
+    "resolutions": [
+      4096.0,
+      2048.0,
+      1024.0,
+      512.0,
+      256.0,
+      128.0,
+      64.0,
+      32.0,
+      16.0,
+      8.0,
+      4.0,
+      2.0,
+      1.0,
+      0.5
+    ],
+    "origin": [
+      0.0,
+      0.0
+    ],
+    "extent": [
+      150202.07930000033,
+      6382100.4728999995,
+      209944.16160000023,
+      6471028.5090999994
+    ],
+    "logo": ""
+  }
+}
