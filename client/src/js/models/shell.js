@@ -16,7 +16,7 @@ var NavigationPanelModel = require("models/navigation");
  * @param {object} options - Default options
  */
 var ShellModel = {
-
+  console.log("Hej");
   initialize: function (config) {
     this.initialConfig = config;
     this.cid += '_map';
