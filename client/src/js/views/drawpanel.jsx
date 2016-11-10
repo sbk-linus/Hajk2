@@ -9,7 +9,7 @@ var ColorPicker = React.createClass({
    */
   colors: [
     "rgb(77, 77, 77)",
-    "rgb(153, 153, 153)",
+    "rgb(128, 128, 128)",
     "rgb(255, 255, 255)",
     "rgb(244, 78, 59)",
     "rgb(254, 146, 0)",
